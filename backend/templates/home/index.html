@@ -1,0 +1,171 @@
+{% extends 'base.html' %}
+{% block title %}Asosiy — Kun Tartibi{% endblock %}
+{% block body %}
+
+<nav class="navbar">
+  <div class="navbar-inner">
+    <div class="navbar-brand">
+      <div class="logo-dot">📅</div>
+      Kun Tartibi
+    </div>
+    <div class="navbar-actions">
+      <span style="font-size:13px;color:var(--text2)">{{ user.first_name }}</span>
+      <a href="{% url 'logout' %}" class="btn-icon" title="Chiqish">🚪</a>
+    </div>
+  </div>
+</nav>
+
+<div class="main-content">
+
+  <!-- TODAY CARD -->
+  <div class="today-card">
+    <div>
+      <div class="today-label">Bugun</div>
+      <div class="today-day" id="today-day-name">—</div>
+      <div class="today-sub" id="today-title">—</div>
+    </div>
+    <div class="today-time" id="live-clock">00:00</div>
+  </div>
+
+  <!-- HAFTA KUNLARI -->
+  <div class="section-header">
+    <div class="section-title">Hafta kunlari</div>
+  </div>
+
+  <div class="days-strip" id="days-strip">
+    {% for wd in weekdays %}
+      <a href="{% url 'day_detail' wd.day %}" class="day-chip {% if wd.day == today_slug %}active-today{% endif %}" data-day="{{ wd.day }}">
+        <span class="day-dot"></span>
+        {{ wd.get_day_display }}
+      </a>
+    {% endfor %}
+
+    <button class="add-day-btn" id="add-day-open-btn" onclick="openAddDayModal()">
+      <div class="circle-plus">+</div>
+      Kun qo'shish
+    </button>
+  </div>
+
+  <!-- ESLATMALAR -->
+  <div class="section-header">
+    <div class="section-title">Eslatmalar</div>
+  </div>
+
+  <div id="reminders-list">
+    {% for r in reminders %}
+      <div class="reminder-card" data-id="{{ r.id }}">
+        <div class="reminder-icon">🔔</div>
+        <div class="reminder-info">
+          <div class="reminder-title">{{ r.title }}</div>
+          <div class="reminder-time">{{ r.remind_at|date:"d-m-Y H:i" }}</div>
+        </div>
+        <button class="btn-edit" onclick="openEditReminderModal({{ r.id }}, '{{ r.title|escapejs }}', '{{ r.remind_at|date:'Y-m-d' }}T{{ r.remind_at|time:'H:i' }}')">✏️</button>
+        <button class="btn-delete" onclick="confirmDeleteReminder({{ r.id }}, this)">🗑️</button>
+      </div>
+    {% empty %}
+      <div class="empty-state">
+        <div class="empty-icon">🔕</div>
+        <p>Hozircha eslatma yo'q.<br>Muhim sanalarni qo'shing.</p>
+      </div>
+    {% endfor %}
+  </div>
+
+  <button class="btn-add-reminder" style="margin-top:10px" onclick="openReminderModal()">
+    🔔 Eslatma qo'shish
+  </button>
+
+</div>
+
+<!-- ADD DAY MODAL -->
+<div class="modal-overlay" id="add-day-modal">
+  <div class="modal-sheet">
+    <div class="modal-handle"></div>
+    <div class="modal-title">Kun qo'shish</div>
+
+    <div class="day-select-grid">
+      {% for slug, label in all_days %}
+        <button class="day-select-btn {% if slug in added_days %}disabled{% endif %}"
+          data-day="{{ slug }}"
+          {% if slug in added_days %}disabled{% endif %}>
+          {{ label }}
+          {% if slug in added_days %} ✓{% endif %}
+        </button>
+      {% endfor %}
+    </div>
+
+    <input type="text" class="modal-input" id="day-title-input"
+      placeholder="Kun nomi, misol: Fizika o'rganish kuni" maxlength="200">
+
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeAddDayModal()">Bekor</button>
+      <button class="btn-confirm" id="confirm-add-day">Qo'shish</button>
+    </div>
+  </div>
+</div>
+
+<!-- ADD REMINDER MODAL -->
+<div class="modal-overlay" id="reminder-modal">
+  <div class="modal-sheet">
+    <div class="modal-handle"></div>
+    <div class="modal-title">Eslatma qo'shish</div>
+
+    <input type="text" class="modal-input" id="reminder-title-input"
+      placeholder="Nomi, misol: Doktorga borish" maxlength="300">
+
+    <input type="datetime-local" class="modal-input" id="reminder-dt-input">
+
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeReminderModal()">Bekor</button>
+      <button class="btn-confirm" id="confirm-add-reminder">Qo'shish</button>
+    </div>
+  </div>
+</div>
+
+<!-- EDIT REMINDER MODAL -->
+<div class="modal-overlay" id="edit-reminder-modal">
+  <div class="modal-sheet">
+    <div class="modal-handle"></div>
+    <div class="modal-title">Eslatmani tahrirlash ✏️</div>
+
+    <input type="hidden" id="edit-reminder-id">
+    <input type="text" class="modal-input" id="edit-reminder-title-input"
+      placeholder="Eslatma nomi" maxlength="300">
+    <input type="datetime-local" class="modal-input" id="edit-reminder-dt-input">
+
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeEditReminderModal()">Bekor</button>
+      <button class="btn-confirm" id="confirm-edit-reminder">Saqlash</button>
+    </div>
+  </div>
+</div>
+
+<!-- CONFIRM DELETE MODAL -->
+<div class="modal-overlay" id="confirm-modal">
+  <div class="modal-sheet">
+    <div class="modal-handle"></div>
+    <div class="confirm-icon">🗑️</div>
+    <div class="modal-title" id="confirm-modal-title">O'chirishni tasdiqlang</div>
+    <p class="confirm-modal-msg" id="confirm-modal-msg">Haqiqatan ham o'chirmoqchimisiz?</p>
+    <div class="modal-actions">
+      <button class="btn-cancel" id="confirm-modal-cancel">Bekor</button>
+      <button class="btn-danger" id="confirm-modal-ok">O'chirish</button>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// Today's day name in Uzbek
+const TODAY_SLUG = "{{ today_slug }}";
+const TODAY_TITLE = "{{ today_weekday_title|default:'' }}";
+const DAYS_UZ = {
+  dushanba: 'Dushanba', seshanba: 'Seshanba', chorshanba: 'Chorshanba',
+  payshanba: 'Payshanba', juma: 'Juma', shanba: 'Shanba', yakshanba: 'Yakshanba'
+};
+
+document.getElementById('today-day-name').textContent = DAYS_UZ[TODAY_SLUG] || '—';
+document.getElementById('today-title').textContent = TODAY_TITLE || 'Bugun uchun kun qo\'shilmagan';
+</script>
+{% endblock %}

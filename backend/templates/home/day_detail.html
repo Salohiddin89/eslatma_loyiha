@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+{% block title %}{{ weekday.get_day_display }} — Kun Tartibi{% endblock %}
+{% block body %}
+
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a href="{% url 'home' %}" class="back-btn" style="text-decoration:none;color:var(--text2)">← Orqaga</a>
+    <div class="navbar-actions">
+      <a href="{% url 'logout' %}" class="btn-icon">🚪</a>
+    </div>
+  </div>
+</nav>
+
+<div class="main-content">
+
+  <div class="day-hero" style="position:relative">
+    <div class="day-label">Hafta kuni</div>
+    <div class="day-name">{{ weekday.get_day_display }}</div>
+    <div class="day-sub" id="day-sub-title">{{ weekday.title }}</div>
+    <button class="edit-day-hero-btn" onclick="openEditDayModal('{{ weekday.day }}', '{{ weekday.title|escapejs }}')"
+      title="Kun nomini tahrirlash">✏️</button>
+  </div>
+
+  <div class="section-header">
+    <div class="section-title">Vazifalar</div>
+    <span style="font-size:12px;color:var(--text3)">{{ tasks.count }} ta</span>
+  </div>
+
+  <div class="tasks-list" id="tasks-list">
+    {% for task in tasks %}
+      <div class="task-item" data-id="{{ task.id }}">
+        <div class="task-time-badge">{{ task.time|time:"H:i" }}</div>
+        <div class="task-title">{{ task.title }}</div>
+        <button class="btn-edit" onclick="openEditTaskModal({{ task.id }}, '{{ task.title|escapejs }}', '{{ task.time|time:"H:i" }}')">✏️</button>
+        <button class="btn-delete" onclick="confirmDeleteTask({{ task.id }}, this)">🗑️</button>
+      </div>
+    {% empty %}
+      <div class="empty-state">
+        <div class="empty-icon">📋</div>
+        <p>Hozircha vazifa yo'q.<br>Quyidagi tugma orqali qo'shing.</p>
+      </div>
+    {% endfor %}
+  </div>
+
+  <button class="btn-add-task" onclick="openTaskModal()">
+    + Vazifa qo'shish
+  </button>
+
+  <button class="delete-day-btn" onclick="confirmDeleteDay('{{ weekday.day }}')">
+    🗑️ Bu kunni o'chirish
+  </button>
+
+</div>
+
+<!-- ADD TASK MODAL -->
+<div class="modal-overlay" id="task-modal" data-day="{{ weekday.day }}">
+  <div class="modal-sheet">
+    <div class="modal-handle"></div>
+    <div class="modal-title">Vazifa qo'shish</div>
+
+    <input type="text" class="modal-input" id="task-title-input"
+      placeholder="Vazifa nomi, misol: Kitob sotib olish" maxlength="300">
+
+    <input type="time" class="modal-input" id="task-time-input">
+
+    <div style="font-size:12px;color:var(--text3);margin-bottom:12px;margin-top:-6px">
+      ⚠️ Bir xil vaqtda ikkita vazifa bo'lmaydi
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeTaskModal()">Bekor</button>
+      <button class="btn-confirm" id="confirm-add-task">Qo'shish</button>
+    </div>
+  </div>
+</div>
+
+<!-- EDIT TASK MODAL -->
+<div class="modal-overlay" id="edit-task-modal">
+  <div class="modal-sheet">
+    <div class="modal-handle"></div>
+    <div class="modal-title">Vazifani tahrirlash ✏️</div>
+
+    <input type="hidden" id="edit-task-id">
+    <input type="text" class="modal-input" id="edit-task-title-input"
+      placeholder="Vazifa nomi" maxlength="300">
+    <input type="time" class="modal-input" id="edit-task-time-input">
+
+    <div style="font-size:12px;color:var(--text3);margin-bottom:12px;margin-top:-6px">
+      ⚠️ Bir xil vaqtda ikkita vazifa bo'lmaydi
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeEditTaskModal()">Bekor</button>
+      <button class="btn-confirm" id="confirm-edit-task">Saqlash</button>
+    </div>
+  </div>
+</div>
+
+<!-- EDIT DAY MODAL -->
+<div class="modal-overlay" id="edit-day-modal">
+  <div class="modal-sheet">
+    <div class="modal-handle"></div>
+    <div class="modal-title">Kun nomini tahrirlash ✏️</div>
+
+    <input type="hidden" id="edit-day-slug">
+    <input type="text" class="modal-input" id="edit-day-title-input"
+      placeholder="Kun nomi" maxlength="200">
+
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeEditDayModal()">Bekor</button>
+      <button class="btn-confirm" id="confirm-edit-day">Saqlash</button>
+    </div>
+  </div>
+</div>
+
+<!-- CONFIRM DELETE MODAL -->
+<div class="modal-overlay" id="confirm-modal">
+  <div class="modal-sheet">
+    <div class="modal-handle"></div>
+    <div class="confirm-icon">🗑️</div>
+    <div class="modal-title" id="confirm-modal-title">O'chirishni tasdiqlang</div>
+    <p class="confirm-modal-msg" id="confirm-modal-msg">Haqiqatan ham o'chirmoqchimisiz?</p>
+    <div class="modal-actions">
+      <button class="btn-cancel" id="confirm-modal-cancel">Bekor</button>
+      <button class="btn-danger" id="confirm-modal-ok">O'chirish</button>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
