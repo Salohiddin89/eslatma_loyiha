@@ -5,11 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-kun-tartib-eslatma-loyiha-2026')
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
-ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    os.environ.get('PA_USERNAME', 'yourusername') + '.pythonanywhere.com',
-]
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',

@@ -1,196 +1,184 @@
-2026-06-13 16:34:53,507 INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
-2026-06-13 16:34:53,515 INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
-2026-06-13 16:34:53,516 INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
-2026-06-13 16:34:53,517 INFO Added job "send_morning_messages" to job store "default"
-2026-06-13 16:34:53,517 INFO Added job "check_task_notifications" to job store "default"
-2026-06-13 16:34:53,517 INFO Added job "check_reminders" to job store "default"
-2026-06-13 16:34:53,517 INFO Scheduler started
-2026-06-13 16:34:53,517 INFO Notification scheduler started (Asia/Tashkent timezone)
-2026-06-13 16:35:53,530 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:36:53 +05)" (scheduled at 2026-06-13 16:35:53.515228+05:00)
-2026-06-13 16:35:53,542 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:36:53 +05)" (scheduled at 2026-06-13 16:35:53.516234+05:00)
-2026-06-13 16:35:53,553 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:36:53 +05)" executed successfully
-2026-06-13 16:35:53,554 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:36:53 +05)" executed successfully
-2026-06-13 16:36:53,527 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:37:53 +05)" (scheduled at 2026-06-13 16:36:53.515228+05:00)
-2026-06-13 16:36:53,528 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:37:53 +05)" (scheduled at 2026-06-13 16:36:53.516234+05:00)
-2026-06-13 16:36:53,534 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:37:53 +05)" executed successfully
-2026-06-13 16:36:53,534 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:37:53 +05)" executed successfully
-2026-06-13 16:37:53,533 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:38:53 +05)" (scheduled at 2026-06-13 16:37:53.515228+05:00)
-2026-06-13 16:37:53,540 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:38:53 +05)" (scheduled at 2026-06-13 16:37:53.516234+05:00)
-2026-06-13 16:37:53,545 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:38:53 +05)" executed successfully
-2026-06-13 16:37:53,546 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:38:53 +05)" executed successfully
-2026-06-13 16:38:53,517 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:39:53 +05)" (scheduled at 2026-06-13 16:38:53.515228+05:00)
-2026-06-13 16:38:53,526 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:39:53 +05)" (scheduled at 2026-06-13 16:38:53.516234+05:00)
-2026-06-13 16:38:53,533 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:39:53 +05)" executed successfully
-2026-06-13 16:38:53,533 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:39:53 +05)" executed successfully
-2026-06-13 16:39:53,529 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:40:53 +05)" (scheduled at 2026-06-13 16:39:53.515228+05:00)
-2026-06-13 16:39:53,536 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:40:53 +05)" (scheduled at 2026-06-13 16:39:53.516234+05:00)
-2026-06-13 16:39:53,541 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:40:53 +05)" executed successfully
-2026-06-13 16:39:53,542 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:40:53 +05)" executed successfully
-2026-06-13 16:40:53,528 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:41:53 +05)" (scheduled at 2026-06-13 16:40:53.515228+05:00)
-2026-06-13 16:40:53,536 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:41:53 +05)" (scheduled at 2026-06-13 16:40:53.516234+05:00)
-2026-06-13 16:40:53,540 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:41:53 +05)" executed successfully
-2026-06-13 16:40:53,541 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:41:53 +05)" executed successfully
-2026-06-13 16:41:53,520 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:42:53 +05)" (scheduled at 2026-06-13 16:41:53.515228+05:00)
-2026-06-13 16:41:53,523 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:42:53 +05)" (scheduled at 2026-06-13 16:41:53.516234+05:00)
-2026-06-13 16:41:53,528 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:42:53 +05)" executed successfully
-2026-06-13 16:41:53,529 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:42:53 +05)" executed successfully
-2026-06-13 16:42:53,520 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:43:53 +05)" (scheduled at 2026-06-13 16:42:53.515228+05:00)
-2026-06-13 16:42:53,527 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:43:53 +05)" (scheduled at 2026-06-13 16:42:53.516234+05:00)
-2026-06-13 16:42:53,966 INFO Reminder sent: fdxcfhgvkhjlk;l' -> salikh
-2026-06-13 16:42:53,967 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:43:53 +05)" executed successfully
-2026-06-13 16:42:54,912 INFO Task notification sent: wehgj -> salikh
-2026-06-13 16:42:54,914 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:43:53 +05)" executed successfully
-2026-06-13 16:43:53,519 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:44:53 +05)" (scheduled at 2026-06-13 16:43:53.515228+05:00)
-2026-06-13 16:43:53,521 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:44:53 +05)" (scheduled at 2026-06-13 16:43:53.516234+05:00)
-2026-06-13 16:43:53,526 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:44:53 +05)" executed successfully
-2026-06-13 16:43:53,528 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:44:53 +05)" executed successfully
-2026-06-13 16:44:53,543 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:45:53 +05)" (scheduled at 2026-06-13 16:44:53.515228+05:00)
-2026-06-13 16:44:53,544 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:45:53 +05)" (scheduled at 2026-06-13 16:44:53.516234+05:00)
-2026-06-13 16:44:53,549 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:45:53 +05)" executed successfully
-2026-06-13 16:44:53,550 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:45:53 +05)" executed successfully
-2026-06-13 16:45:53,533 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:46:53 +05)" (scheduled at 2026-06-13 16:45:53.515228+05:00)
-2026-06-13 16:45:53,534 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:46:53 +05)" (scheduled at 2026-06-13 16:45:53.516234+05:00)
-2026-06-13 16:45:53,540 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:46:53 +05)" executed successfully
-2026-06-13 16:45:53,541 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:46:53 +05)" executed successfully
-2026-06-13 16:46:53,537 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:47:53 +05)" (scheduled at 2026-06-13 16:46:53.515228+05:00)
-2026-06-13 16:46:53,545 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:47:53 +05)" (scheduled at 2026-06-13 16:46:53.516234+05:00)
-2026-06-13 16:46:53,551 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:47:53 +05)" executed successfully
-2026-06-13 16:46:53,551 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:47:53 +05)" executed successfully
-2026-06-13 16:47:53,519 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:48:53 +05)" (scheduled at 2026-06-13 16:47:53.515228+05:00)
-2026-06-13 16:47:53,520 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:48:53 +05)" (scheduled at 2026-06-13 16:47:53.516234+05:00)
-2026-06-13 16:47:53,525 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:48:53 +05)" executed successfully
-2026-06-13 16:47:53,526 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:48:53 +05)" executed successfully
-2026-06-13 16:48:53,527 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:49:53 +05)" (scheduled at 2026-06-13 16:48:53.515228+05:00)
-2026-06-13 16:48:53,534 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:49:53 +05)" (scheduled at 2026-06-13 16:48:53.516234+05:00)
-2026-06-13 16:48:53,540 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:49:53 +05)" executed successfully
-2026-06-13 16:48:53,541 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:49:53 +05)" executed successfully
-2026-06-13 16:49:53,525 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:50:53 +05)" (scheduled at 2026-06-13 16:49:53.515228+05:00)
-2026-06-13 16:49:53,533 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:50:53 +05)" (scheduled at 2026-06-13 16:49:53.516234+05:00)
-2026-06-13 16:49:53,539 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:50:53 +05)" executed successfully
-2026-06-13 16:49:53,540 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:50:53 +05)" executed successfully
-2026-06-13 16:57:04,896 WARNING Run time of job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:57:53 +05)" was missed by 0:00:11.380796
-2026-06-13 16:57:04,903 WARNING Run time of job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:57:53 +05)" was missed by 0:00:11.387711
-2026-06-13 16:57:53,529 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:58:53 +05)" (scheduled at 2026-06-13 16:57:53.515228+05:00)
-2026-06-13 16:57:53,530 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:58:53 +05)" (scheduled at 2026-06-13 16:57:53.516234+05:00)
-2026-06-13 16:57:53,539 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:58:53 +05)" executed successfully
-2026-06-13 16:57:53,540 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:58:53 +05)" executed successfully
-2026-06-13 16:58:53,531 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:59:53 +05)" (scheduled at 2026-06-13 16:58:53.515228+05:00)
-2026-06-13 16:58:53,539 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:59:53 +05)" (scheduled at 2026-06-13 16:58:53.516234+05:00)
-2026-06-13 16:58:53,545 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 16:59:53 +05)" executed successfully
-2026-06-13 16:58:53,545 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 16:59:53 +05)" executed successfully
-2026-06-13 16:59:53,528 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:00:53 +05)" (scheduled at 2026-06-13 16:59:53.515228+05:00)
-2026-06-13 16:59:53,535 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:00:53 +05)" (scheduled at 2026-06-13 16:59:53.516234+05:00)
-2026-06-13 16:59:53,541 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:00:53 +05)" executed successfully
-2026-06-13 16:59:53,541 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:00:53 +05)" executed successfully
-2026-06-13 17:00:53,528 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:01:53 +05)" (scheduled at 2026-06-13 17:00:53.515228+05:00)
-2026-06-13 17:00:53,535 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:01:53 +05)" (scheduled at 2026-06-13 17:00:53.516234+05:00)
-2026-06-13 17:00:53,541 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:01:53 +05)" executed successfully
-2026-06-13 17:00:53,541 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:01:53 +05)" executed successfully
-2026-06-13 17:01:53,516 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:02:53 +05)" (scheduled at 2026-06-13 17:01:53.515228+05:00)
-2026-06-13 17:01:53,524 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:02:53 +05)" (scheduled at 2026-06-13 17:01:53.516234+05:00)
-2026-06-13 17:01:53,530 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:02:53 +05)" executed successfully
-2026-06-13 17:01:53,530 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:02:53 +05)" executed successfully
-2026-06-13 17:02:53,530 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:03:53 +05)" (scheduled at 2026-06-13 17:02:53.515228+05:00)
-2026-06-13 17:02:53,532 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:03:53 +05)" (scheduled at 2026-06-13 17:02:53.516234+05:00)
-2026-06-13 17:02:53,538 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:03:53 +05)" executed successfully
-2026-06-13 17:02:53,539 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:03:53 +05)" executed successfully
-2026-06-13 17:03:53,533 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:04:53 +05)" (scheduled at 2026-06-13 17:03:53.515228+05:00)
-2026-06-13 17:03:53,536 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:04:53 +05)" (scheduled at 2026-06-13 17:03:53.516234+05:00)
-2026-06-13 17:03:53,542 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:04:53 +05)" executed successfully
-2026-06-13 17:03:53,544 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:04:53 +05)" executed successfully
-2026-06-13 17:04:53,521 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:05:53 +05)" (scheduled at 2026-06-13 17:04:53.515228+05:00)
-2026-06-13 17:04:53,522 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:05:53 +05)" (scheduled at 2026-06-13 17:04:53.516234+05:00)
-2026-06-13 17:04:53,526 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:05:53 +05)" executed successfully
-2026-06-13 17:04:53,529 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:05:53 +05)" executed successfully
-2026-06-13 17:05:53,524 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:06:53 +05)" (scheduled at 2026-06-13 17:05:53.515228+05:00)
-2026-06-13 17:05:53,526 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:06:53 +05)" (scheduled at 2026-06-13 17:05:53.516234+05:00)
-2026-06-13 17:05:53,531 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:06:53 +05)" executed successfully
-2026-06-13 17:05:53,533 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:06:53 +05)" executed successfully
-2026-06-13 17:06:53,529 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:07:53 +05)" (scheduled at 2026-06-13 17:06:53.515228+05:00)
-2026-06-13 17:06:53,530 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:07:53 +05)" (scheduled at 2026-06-13 17:06:53.516234+05:00)
-2026-06-13 17:06:53,536 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:07:53 +05)" executed successfully
-2026-06-13 17:06:53,536 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:07:53 +05)" executed successfully
-2026-06-13 17:07:53,536 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:08:53 +05)" (scheduled at 2026-06-13 17:07:53.515228+05:00)
-2026-06-13 17:07:53,544 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:08:53 +05)" (scheduled at 2026-06-13 17:07:53.516234+05:00)
-2026-06-13 17:07:53,551 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:08:53 +05)" executed successfully
-2026-06-13 17:07:53,554 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:08:53 +05)" executed successfully
-2026-06-13 17:08:53,530 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:09:53 +05)" (scheduled at 2026-06-13 17:08:53.515228+05:00)
-2026-06-13 17:08:53,538 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:09:53 +05)" (scheduled at 2026-06-13 17:08:53.516234+05:00)
-2026-06-13 17:08:53,544 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:09:53 +05)" executed successfully
-2026-06-13 17:08:53,546 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:09:53 +05)" executed successfully
-2026-06-13 17:09:53,532 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:10:53 +05)" (scheduled at 2026-06-13 17:09:53.515228+05:00)
-2026-06-13 17:09:53,534 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:10:53 +05)" (scheduled at 2026-06-13 17:09:53.516234+05:00)
-2026-06-13 17:09:53,541 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:10:53 +05)" executed successfully
-2026-06-13 17:09:53,542 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:10:53 +05)" executed successfully
-2026-06-13 17:10:53,522 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:11:53 +05)" (scheduled at 2026-06-13 17:10:53.515228+05:00)
-2026-06-13 17:10:53,530 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:11:53 +05)" (scheduled at 2026-06-13 17:10:53.516234+05:00)
-2026-06-13 17:10:53,537 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:11:53 +05)" executed successfully
-2026-06-13 17:10:53,539 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:11:53 +05)" executed successfully
-2026-06-13 17:11:53,528 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:12:53 +05)" (scheduled at 2026-06-13 17:11:53.515228+05:00)
-2026-06-13 17:11:53,536 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:12:53 +05)" (scheduled at 2026-06-13 17:11:53.516234+05:00)
-2026-06-13 17:11:53,543 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:12:53 +05)" executed successfully
-2026-06-13 17:11:53,544 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:12:53 +05)" executed successfully
-2026-06-13 17:12:53,519 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:13:53 +05)" (scheduled at 2026-06-13 17:12:53.515228+05:00)
-2026-06-13 17:12:53,526 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:13:53 +05)" (scheduled at 2026-06-13 17:12:53.516234+05:00)
-2026-06-13 17:12:53,532 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:13:53 +05)" executed successfully
-2026-06-13 17:12:53,536 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:13:53 +05)" executed successfully
-2026-06-13 17:13:53,529 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:14:53 +05)" (scheduled at 2026-06-13 17:13:53.515228+05:00)
-2026-06-13 17:13:53,536 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:14:53 +05)" (scheduled at 2026-06-13 17:13:53.516234+05:00)
-2026-06-13 17:13:53,549 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:14:53 +05)" executed successfully
-2026-06-13 17:13:53,550 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:14:53 +05)" executed successfully
-2026-06-13 17:14:53,533 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:15:53 +05)" (scheduled at 2026-06-13 17:14:53.515228+05:00)
-2026-06-13 17:14:53,540 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:15:53 +05)" (scheduled at 2026-06-13 17:14:53.516234+05:00)
-2026-06-13 17:14:53,544 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:15:53 +05)" executed successfully
-2026-06-13 17:14:53,547 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:15:53 +05)" executed successfully
-2026-06-13 17:15:53,523 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:16:53 +05)" (scheduled at 2026-06-13 17:15:53.515228+05:00)
-2026-06-13 17:15:53,532 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:16:53 +05)" (scheduled at 2026-06-13 17:15:53.516234+05:00)
-2026-06-13 17:15:53,539 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:16:53 +05)" executed successfully
-2026-06-13 17:15:53,540 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:16:53 +05)" executed successfully
-2026-06-13 17:16:53,518 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:17:53 +05)" (scheduled at 2026-06-13 17:16:53.515228+05:00)
-2026-06-13 17:16:53,526 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:17:53 +05)" (scheduled at 2026-06-13 17:16:53.516234+05:00)
-2026-06-13 17:16:53,533 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:17:53 +05)" executed successfully
-2026-06-13 17:16:53,533 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:17:53 +05)" executed successfully
-2026-06-13 17:17:53,532 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:18:53 +05)" (scheduled at 2026-06-13 17:17:53.515228+05:00)
-2026-06-13 17:17:53,541 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:18:53 +05)" (scheduled at 2026-06-13 17:17:53.516234+05:00)
-2026-06-13 17:17:53,547 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:18:53 +05)" executed successfully
-2026-06-13 17:17:53,549 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:18:53 +05)" executed successfully
-2026-06-13 17:18:53,528 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:19:53 +05)" (scheduled at 2026-06-13 17:18:53.515228+05:00)
-2026-06-13 17:18:53,536 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:19:53 +05)" (scheduled at 2026-06-13 17:18:53.516234+05:00)
-2026-06-13 17:18:53,542 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:19:53 +05)" executed successfully
-2026-06-13 17:18:53,545 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:19:53 +05)" executed successfully
-2026-06-13 17:19:53,522 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:20:53 +05)" (scheduled at 2026-06-13 17:19:53.515228+05:00)
-2026-06-13 17:19:53,530 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:20:53 +05)" (scheduled at 2026-06-13 17:19:53.516234+05:00)
-2026-06-13 17:19:53,536 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:20:53 +05)" executed successfully
-2026-06-13 17:19:53,537 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:20:53 +05)" executed successfully
-2026-06-13 17:20:53,529 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:21:53 +05)" (scheduled at 2026-06-13 17:20:53.515228+05:00)
-2026-06-13 17:20:53,537 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:21:53 +05)" (scheduled at 2026-06-13 17:20:53.516234+05:00)
-2026-06-13 17:20:53,541 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:21:53 +05)" executed successfully
-2026-06-13 17:20:53,544 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:21:53 +05)" executed successfully
-2026-06-13 17:21:53,523 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:22:53 +05)" (scheduled at 2026-06-13 17:21:53.515228+05:00)
-2026-06-13 17:21:53,530 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:22:53 +05)" (scheduled at 2026-06-13 17:21:53.516234+05:00)
-2026-06-13 17:21:53,537 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:22:53 +05)" executed successfully
-2026-06-13 17:21:53,537 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:22:53 +05)" executed successfully
-2026-06-13 17:22:53,526 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:23:53 +05)" (scheduled at 2026-06-13 17:22:53.515228+05:00)
-2026-06-13 17:22:53,534 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:23:53 +05)" (scheduled at 2026-06-13 17:22:53.516234+05:00)
-2026-06-13 17:22:53,541 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:23:53 +05)" executed successfully
-2026-06-13 17:22:53,543 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:23:53 +05)" executed successfully
-2026-06-13 17:23:53,525 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:24:53 +05)" (scheduled at 2026-06-13 17:23:53.515228+05:00)
-2026-06-13 17:23:53,532 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:24:53 +05)" (scheduled at 2026-06-13 17:23:53.516234+05:00)
-2026-06-13 17:23:53,537 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:24:53 +05)" executed successfully
-2026-06-13 17:23:53,540 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:24:53 +05)" executed successfully
-2026-06-13 17:24:53,521 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:25:53 +05)" (scheduled at 2026-06-13 17:24:53.515228+05:00)
-2026-06-13 17:24:53,523 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:25:53 +05)" (scheduled at 2026-06-13 17:24:53.516234+05:00)
-2026-06-13 17:24:53,527 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:25:53 +05)" executed successfully
-2026-06-13 17:24:53,530 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:25:53 +05)" executed successfully
-2026-06-13 17:25:53,528 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:26:53 +05)" (scheduled at 2026-06-13 17:25:53.515228+05:00)
-2026-06-13 17:25:53,537 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:26:53 +05)" (scheduled at 2026-06-13 17:25:53.516234+05:00)
-2026-06-13 17:25:53,544 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:26:53 +05)" executed successfully
-2026-06-13 17:25:53,545 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:26:53 +05)" executed successfully
-2026-06-13 17:26:53,522 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:27:53 +05)" (scheduled at 2026-06-13 17:26:53.515228+05:00)
-2026-06-13 17:26:53,530 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:27:53 +05)" (scheduled at 2026-06-13 17:26:53.516234+05:00)
-2026-06-13 17:26:53,536 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:27:53 +05)" executed successfully
-2026-06-13 17:26:53,538 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:27:53 +05)" executed successfully
-2026-06-13 17:27:53,520 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:28:53 +05)" (scheduled at 2026-06-13 17:27:53.515228+05:00)
-2026-06-13 17:27:53,527 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:28:53 +05)" (scheduled at 2026-06-13 17:27:53.516234+05:00)
-2026-06-13 17:27:53,538 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-13 17:28:53 +05)" executed successfully
-2026-06-13 17:27:53,539 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-13 17:28:53 +05)" executed successfully
+2026-06-17 15:35:24,931 INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-17 15:35:24,936 INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-17 15:35:24,939 INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-17 15:35:24,944 INFO Added job "send_morning_messages" to job store "default"
+2026-06-17 15:35:24,945 INFO Added job "check_task_notifications" to job store "default"
+2026-06-17 15:35:24,946 INFO Added job "check_reminders" to job store "default"
+2026-06-17 15:35:24,947 INFO Scheduler started
+2026-06-17 15:35:24,947 INFO Notification scheduler started (Asia/Tashkent timezone)
+2026-06-17 15:35:24,948 INFO Bot ishga tushdi...
+2026-06-17 15:35:24,949 INFO Start polling
+2026-06-17 15:35:25,362 INFO Run polling for bot @Mars_F2_1985_bot id=8218372259 - 'dars_uchun'
+2026-06-17 15:36:24,941 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 15:37:24 +05)" (scheduled at 2026-06-17 15:36:24.936401+05:00)
+2026-06-17 15:36:24,948 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 15:37:24 +05)" (scheduled at 2026-06-17 15:36:24.939426+05:00)
+2026-06-17 15:36:24,987 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 15:37:24 +05)" executed successfully
+2026-06-17 15:36:24,988 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 15:37:24 +05)" executed successfully
+2026-06-17 15:37:24,944 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 15:38:24 +05)" (scheduled at 2026-06-17 15:37:24.936401+05:00)
+2026-06-17 15:37:24,952 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 15:38:24 +05)" (scheduled at 2026-06-17 15:37:24.939426+05:00)
+2026-06-17 15:37:24,959 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 15:38:24 +05)" executed successfully
+2026-06-17 15:37:24,959 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 15:38:24 +05)" executed successfully
+2026-06-17 15:38:24,947 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 15:39:24 +05)" (scheduled at 2026-06-17 15:38:24.936401+05:00)
+2026-06-17 15:38:24,956 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 15:39:24 +05)" (scheduled at 2026-06-17 15:38:24.939426+05:00)
+2026-06-17 15:38:24,962 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 15:39:24 +05)" executed successfully
+2026-06-17 15:38:24,963 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 15:39:24 +05)" executed successfully
+2026-06-17 15:39:24,950 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 15:40:24 +05)" (scheduled at 2026-06-17 15:39:24.936401+05:00)
+2026-06-17 15:39:24,957 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 15:40:24 +05)" (scheduled at 2026-06-17 15:39:24.939426+05:00)
+2026-06-17 15:39:24,966 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 15:40:24 +05)" executed successfully
+2026-06-17 15:39:24,966 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 15:40:24 +05)" executed successfully
+2026-06-17 15:40:24,939 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 15:41:24 +05)" (scheduled at 2026-06-17 15:40:24.936401+05:00)
+2026-06-17 15:40:24,943 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 15:41:24 +05)" (scheduled at 2026-06-17 15:40:24.939426+05:00)
+2026-06-17 15:40:24,946 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 15:41:24 +05)" executed successfully
+2026-06-17 15:40:24,947 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 15:41:24 +05)" executed successfully
+2026-06-17 16:08:28,292 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-06-17 16:08:28,294 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8218372259)
+2026-06-17 16:08:28,298 WARNING Run time of job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 16:09:24 +05)" was missed by 0:00:03.362568
+2026-06-17 16:08:28,300 WARNING Run time of job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 16:09:24 +05)" was missed by 0:00:03.360541
+2026-06-17 16:08:29,314 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2026-06-17 16:08:29,315 WARNING Sleep for 1.351897 seconds and try again... (tryings = 1, bot id = 8218372259)
+2026-06-17 16:08:30,673 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2026-06-17 16:08:30,674 WARNING Sleep for 1.773410 seconds and try again... (tryings = 2, bot id = 8218372259)
+2026-06-17 16:08:32,459 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2026-06-17 16:08:32,461 WARNING Sleep for 2.391425 seconds and try again... (tryings = 3, bot id = 8218372259)
+2026-06-17 21:11:21,090 WARNING Run time of job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:11:24 +05)" was missed by 0:00:56.154507
+2026-06-17 21:11:21,092 WARNING Run time of job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:11:24 +05)" was missed by 0:00:56.152636
+2026-06-17 21:11:21,092 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2026-06-17 21:11:21,095 WARNING Sleep for 3.028469 seconds and try again... (tryings = 4, bot id = 8218372259)
+2026-06-17 21:11:24,133 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2026-06-17 21:11:24,133 WARNING Sleep for 3.824968 seconds and try again... (tryings = 5, bot id = 8218372259)
+2026-06-17 21:11:24,945 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:12:24 +05)" (scheduled at 2026-06-17 21:11:24.936401+05:00)
+2026-06-17 21:11:24,945 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:12:24 +05)" (scheduled at 2026-06-17 21:11:24.939426+05:00)
+2026-06-17 21:11:24,950 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:12:24 +05)" executed successfully
+2026-06-17 21:11:24,950 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:12:24 +05)" executed successfully
+2026-06-17 21:11:38,269 INFO Connection established (tryings = 6, bot id = 8218372259)
+2026-06-17 21:12:24,955 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:13:24 +05)" (scheduled at 2026-06-17 21:12:24.936401+05:00)
+2026-06-17 21:12:24,963 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:13:24 +05)" (scheduled at 2026-06-17 21:12:24.939426+05:00)
+2026-06-17 21:12:24,971 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:13:24 +05)" executed successfully
+2026-06-17 21:12:24,971 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:13:24 +05)" executed successfully
+2026-06-17 21:13:24,945 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:14:24 +05)" (scheduled at 2026-06-17 21:13:24.936401+05:00)
+2026-06-17 21:13:24,953 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:14:24 +05)" (scheduled at 2026-06-17 21:13:24.939426+05:00)
+2026-06-17 21:13:24,962 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:14:24 +05)" executed successfully
+2026-06-17 21:13:24,963 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:14:24 +05)" executed successfully
+2026-06-17 21:14:24,945 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:15:24 +05)" (scheduled at 2026-06-17 21:14:24.936401+05:00)
+2026-06-17 21:14:24,956 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:15:24 +05)" (scheduled at 2026-06-17 21:14:24.939426+05:00)
+2026-06-17 21:14:24,971 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:15:24 +05)" executed successfully
+2026-06-17 21:14:24,974 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:15:24 +05)" executed successfully
+2026-06-17 21:15:24,953 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:16:24 +05)" (scheduled at 2026-06-17 21:15:24.936401+05:00)
+2026-06-17 21:15:24,964 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:16:24 +05)" (scheduled at 2026-06-17 21:15:24.939426+05:00)
+2026-06-17 21:15:25,003 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:16:24 +05)" executed successfully
+2026-06-17 21:15:25,007 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:16:24 +05)" executed successfully
+2026-06-17 21:16:25,081 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:17:24 +05)" (scheduled at 2026-06-17 21:16:24.936401+05:00)
+2026-06-17 21:16:25,158 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:17:24 +05)" (scheduled at 2026-06-17 21:16:24.939426+05:00)
+2026-06-17 21:16:25,355 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:17:24 +05)" executed successfully
+2026-06-17 21:16:25,366 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:17:24 +05)" executed successfully
+2026-06-17 21:17:24,975 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:18:24 +05)" (scheduled at 2026-06-17 21:17:24.936401+05:00)
+2026-06-17 21:17:25,002 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:18:24 +05)" (scheduled at 2026-06-17 21:17:24.939426+05:00)
+2026-06-17 21:17:25,078 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:18:24 +05)" executed successfully
+2026-06-17 21:17:25,078 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:18:24 +05)" executed successfully
+2026-06-17 21:18:24,952 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:19:24 +05)" (scheduled at 2026-06-17 21:18:24.936401+05:00)
+2026-06-17 21:18:24,955 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:19:24 +05)" (scheduled at 2026-06-17 21:18:24.939426+05:00)
+2026-06-17 21:18:24,964 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:19:24 +05)" executed successfully
+2026-06-17 21:18:24,966 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:19:24 +05)" executed successfully
+2026-06-17 21:19:24,963 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:20:24 +05)" (scheduled at 2026-06-17 21:19:24.936401+05:00)
+2026-06-17 21:19:24,965 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:20:24 +05)" (scheduled at 2026-06-17 21:19:24.939426+05:00)
+2026-06-17 21:19:24,973 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:20:24 +05)" executed successfully
+2026-06-17 21:19:24,974 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:20:24 +05)" executed successfully
+2026-06-17 21:20:24,951 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:21:24 +05)" (scheduled at 2026-06-17 21:20:24.936401+05:00)
+2026-06-17 21:20:24,951 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:21:24 +05)" (scheduled at 2026-06-17 21:20:24.939426+05:00)
+2026-06-17 21:20:24,960 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:21:24 +05)" executed successfully
+2026-06-17 21:20:24,962 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:21:24 +05)" executed successfully
+2026-06-17 21:21:24,945 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:22:24 +05)" (scheduled at 2026-06-17 21:21:24.936401+05:00)
+2026-06-17 21:21:24,953 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:22:24 +05)" (scheduled at 2026-06-17 21:21:24.939426+05:00)
+2026-06-17 21:21:24,954 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:22:24 +05)" executed successfully
+2026-06-17 21:21:24,959 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:22:24 +05)" executed successfully
+2026-06-17 21:22:24,960 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:23:24 +05)" (scheduled at 2026-06-17 21:22:24.936401+05:00)
+2026-06-17 21:22:24,961 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:23:24 +05)" (scheduled at 2026-06-17 21:22:24.939426+05:00)
+2026-06-17 21:22:24,966 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:23:24 +05)" executed successfully
+2026-06-17 21:22:24,967 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:23:24 +05)" executed successfully
+2026-06-17 21:23:24,940 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:24:24 +05)" (scheduled at 2026-06-17 21:23:24.936401+05:00)
+2026-06-17 21:23:24,941 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:24:24 +05)" (scheduled at 2026-06-17 21:23:24.939426+05:00)
+2026-06-17 21:23:24,948 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:24:24 +05)" executed successfully
+2026-06-17 21:23:24,949 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:24:24 +05)" executed successfully
+2026-06-17 21:24:24,948 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:25:24 +05)" (scheduled at 2026-06-17 21:24:24.936401+05:00)
+2026-06-17 21:24:24,949 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:25:24 +05)" (scheduled at 2026-06-17 21:24:24.939426+05:00)
+2026-06-17 21:24:24,960 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:25:24 +05)" executed successfully
+2026-06-17 21:24:24,961 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:25:24 +05)" executed successfully
+2026-06-17 21:25:24,942 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:26:24 +05)" (scheduled at 2026-06-17 21:25:24.936401+05:00)
+2026-06-17 21:25:24,943 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:26:24 +05)" (scheduled at 2026-06-17 21:25:24.939426+05:00)
+2026-06-17 21:25:24,948 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:26:24 +05)" executed successfully
+2026-06-17 21:25:24,948 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:26:24 +05)" executed successfully
+2026-06-17 21:26:24,965 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:27:24 +05)" (scheduled at 2026-06-17 21:26:24.936401+05:00)
+2026-06-17 21:26:24,967 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:27:24 +05)" (scheduled at 2026-06-17 21:26:24.939426+05:00)
+2026-06-17 21:26:24,972 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:27:24 +05)" executed successfully
+2026-06-17 21:26:24,973 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:27:24 +05)" executed successfully
+2026-06-17 21:27:24,946 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:28:24 +05)" (scheduled at 2026-06-17 21:27:24.936401+05:00)
+2026-06-17 21:27:24,953 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:28:24 +05)" (scheduled at 2026-06-17 21:27:24.939426+05:00)
+2026-06-17 21:27:24,961 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:28:24 +05)" executed successfully
+2026-06-17 21:27:24,963 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:28:24 +05)" executed successfully
+2026-06-17 21:28:24,949 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:29:24 +05)" (scheduled at 2026-06-17 21:28:24.936401+05:00)
+2026-06-17 21:28:24,957 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:29:24 +05)" (scheduled at 2026-06-17 21:28:24.939426+05:00)
+2026-06-17 21:28:24,963 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:29:24 +05)" executed successfully
+2026-06-17 21:28:24,964 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:29:24 +05)" executed successfully
+2026-06-17 21:29:24,951 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:30:24 +05)" (scheduled at 2026-06-17 21:29:24.936401+05:00)
+2026-06-17 21:29:24,958 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:30:24 +05)" (scheduled at 2026-06-17 21:29:24.939426+05:00)
+2026-06-17 21:29:24,964 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:30:24 +05)" executed successfully
+2026-06-17 21:29:24,965 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:30:24 +05)" executed successfully
+2026-06-17 21:30:24,940 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:31:24 +05)" (scheduled at 2026-06-17 21:30:24.936401+05:00)
+2026-06-17 21:30:24,947 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:31:24 +05)" (scheduled at 2026-06-17 21:30:24.939426+05:00)
+2026-06-17 21:30:24,952 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:31:24 +05)" executed successfully
+2026-06-17 21:30:24,953 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:31:24 +05)" executed successfully
+2026-06-17 21:31:24,952 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:32:24 +05)" (scheduled at 2026-06-17 21:31:24.936401+05:00)
+2026-06-17 21:31:24,959 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:32:24 +05)" (scheduled at 2026-06-17 21:31:24.939426+05:00)
+2026-06-17 21:31:24,963 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:32:24 +05)" executed successfully
+2026-06-17 21:31:24,963 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:32:24 +05)" executed successfully
+2026-06-17 21:32:24,949 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:33:24 +05)" (scheduled at 2026-06-17 21:32:24.936401+05:00)
+2026-06-17 21:32:24,951 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:33:24 +05)" (scheduled at 2026-06-17 21:32:24.939426+05:00)
+2026-06-17 21:32:24,957 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:33:24 +05)" executed successfully
+2026-06-17 21:32:24,959 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:33:24 +05)" executed successfully
+2026-06-17 21:33:24,949 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:34:24 +05)" (scheduled at 2026-06-17 21:33:24.936401+05:00)
+2026-06-17 21:33:24,957 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:34:24 +05)" (scheduled at 2026-06-17 21:33:24.939426+05:00)
+2026-06-17 21:33:24,962 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:34:24 +05)" executed successfully
+2026-06-17 21:33:24,963 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:34:24 +05)" executed successfully
+2026-06-17 21:34:24,940 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:35:24 +05)" (scheduled at 2026-06-17 21:34:24.936401+05:00)
+2026-06-17 21:34:24,948 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:35:24 +05)" (scheduled at 2026-06-17 21:34:24.939426+05:00)
+2026-06-17 21:34:24,955 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:35:24 +05)" executed successfully
+2026-06-17 21:34:24,956 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:35:24 +05)" executed successfully
+2026-06-17 21:35:24,952 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:36:24 +05)" (scheduled at 2026-06-17 21:35:24.936401+05:00)
+2026-06-17 21:35:24,953 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:36:24 +05)" (scheduled at 2026-06-17 21:35:24.939426+05:00)
+2026-06-17 21:35:24,958 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:36:24 +05)" executed successfully
+2026-06-17 21:35:24,958 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:36:24 +05)" executed successfully
+2026-06-17 21:36:24,949 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:37:24 +05)" (scheduled at 2026-06-17 21:36:24.936401+05:00)
+2026-06-17 21:36:24,956 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:37:24 +05)" (scheduled at 2026-06-17 21:36:24.939426+05:00)
+2026-06-17 21:36:24,962 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:37:24 +05)" executed successfully
+2026-06-17 21:36:24,963 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:37:24 +05)" executed successfully
+2026-06-17 21:37:24,947 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:38:24 +05)" (scheduled at 2026-06-17 21:37:24.936401+05:00)
+2026-06-17 21:37:24,953 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:38:24 +05)" (scheduled at 2026-06-17 21:37:24.939426+05:00)
+2026-06-17 21:37:24,959 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:38:24 +05)" executed successfully
+2026-06-17 21:37:24,959 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:38:24 +05)" executed successfully
+2026-06-17 21:38:24,946 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:39:24 +05)" (scheduled at 2026-06-17 21:38:24.936401+05:00)
+2026-06-17 21:38:24,954 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:39:24 +05)" (scheduled at 2026-06-17 21:38:24.939426+05:00)
+2026-06-17 21:38:24,957 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:39:24 +05)" executed successfully
+2026-06-17 21:38:24,959 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:39:24 +05)" executed successfully
+2026-06-17 21:39:24,938 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:40:24 +05)" (scheduled at 2026-06-17 21:39:24.936401+05:00)
+2026-06-17 21:39:24,949 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:40:24 +05)" (scheduled at 2026-06-17 21:39:24.939426+05:00)
+2026-06-17 21:39:24,952 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:40:24 +05)" executed successfully
+2026-06-17 21:39:24,952 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:40:24 +05)" executed successfully
+2026-06-17 21:40:24,944 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:41:24 +05)" (scheduled at 2026-06-17 21:40:24.936401+05:00)
+2026-06-17 21:40:24,951 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:41:24 +05)" (scheduled at 2026-06-17 21:40:24.939426+05:00)
+2026-06-17 21:40:24,955 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:41:24 +05)" executed successfully
+2026-06-17 21:40:24,957 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:41:24 +05)" executed successfully
+2026-06-17 21:41:24,956 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:42:24 +05)" (scheduled at 2026-06-17 21:41:24.936401+05:00)
+2026-06-17 21:41:24,964 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:42:24 +05)" (scheduled at 2026-06-17 21:41:24.939426+05:00)
+2026-06-17 21:41:24,968 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:42:24 +05)" executed successfully
+2026-06-17 21:41:24,969 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:42:24 +05)" executed successfully
+2026-06-17 21:42:24,949 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:43:24 +05)" (scheduled at 2026-06-17 21:42:24.936401+05:00)
+2026-06-17 21:42:24,951 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:43:24 +05)" (scheduled at 2026-06-17 21:42:24.939426+05:00)
+2026-06-17 21:42:24,957 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:43:24 +05)" executed successfully
+2026-06-17 21:42:24,957 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:43:24 +05)" executed successfully
+2026-06-17 21:43:24,948 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:44:24 +05)" (scheduled at 2026-06-17 21:43:24.936401+05:00)
+2026-06-17 21:43:24,955 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:44:24 +05)" (scheduled at 2026-06-17 21:43:24.939426+05:00)
+2026-06-17 21:43:24,961 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:44:24 +05)" executed successfully
+2026-06-17 21:43:24,962 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:44:24 +05)" executed successfully
+2026-06-17 21:44:24,938 INFO Running job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:45:24 +05)" (scheduled at 2026-06-17 21:44:24.936401+05:00)
+2026-06-17 21:44:24,945 INFO Running job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:45:24 +05)" (scheduled at 2026-06-17 21:44:24.939426+05:00)
+2026-06-17 21:44:24,947 INFO Job "check_task_notifications (trigger: interval[0:01:00], next run at: 2026-06-17 21:45:24 +05)" executed successfully
+2026-06-17 21:44:24,951 INFO Job "check_reminders (trigger: interval[0:01:00], next run at: 2026-06-17 21:45:24 +05)" executed successfully
