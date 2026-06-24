@@ -17,22 +17,19 @@ class PlannerConfig(AppConfig):
         if any(cmd in sys.argv for cmd in skip_commands):
             return
 
-        # Gunicorn preforked model: faqat worker jarayonida (RUN_MAIN yo'q bo'lsa)
-        # runserver: RUN_MAIN=true bo'lgandagina ishga tushirish (reloader ni o'tkazib yuborish)
-        run_main = os.environ.get('RUN_MAIN')
-        server_software = os.environ.get('SERVER_SOFTWARE', '')
+        # Faqat local runserver da scheduler ishga tushadi
+        # PythonAnywhere (uWSGI) va boshqa hosting'larda
+        # background thread ishlamaydi — scheduled task ishlatiladi
+        is_runserver = 'runserver' in sys.argv
+        run_main = os.environ.get('RUN_MAIN', '')
 
-        # runserver bilan ishlayotganda — Django reloader'dagi ikki marta ishga tushishni oldini olish
-        if 'runserver' in sys.argv and run_main != 'true':
-            return
-
-        # gunicorn, uvicorn, waitress va boshqa WSGI/ASGI server
-        # Bu holda RUN_MAIN yo'q, lekin scheduler ishlashi kerak
-        try:
-            from planner.notification_scheduler import start_scheduler
-            start_scheduler()
-        except Exception as exc:
-            import logging
-            logging.getLogger(__name__).error(
-                "Scheduler ishga tushmadi: %s", exc, exc_info=True
-            )
+        if is_runserver and run_main == 'true':
+            # Local development uchun
+            try:
+                from planner.notification_scheduler import start_scheduler
+                start_scheduler()
+            except Exception as exc:
+                import logging
+                logging.getLogger(__name__).error(
+                    "Scheduler ishga tushmadi: %s", exc, exc_info=True
+                )
